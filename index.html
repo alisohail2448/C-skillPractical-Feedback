@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Feedback Form</title>
+  </head>
+  <body>
+    <div class="container">
+        <div class="content">
+          <div class="img">
+              <h2>Student Feedback Form </h2>
+            <img src="feed3.gif" alt="">
+          </div>
+        <form>
+         <div class="name">
+            <label for="fname">Enter your Full Name:</label><br />
+            <input type="Text" id="fname" placeholder="Enter Your Name" /><br />
+            <label for="Year">Choose year:</label><br />
+            <select id="year" name="year">
+              <option value="First Year">First Year</option>
+              <option value="Second Year">Second Year</option>
+              <option value="Third Year">Third Year</option>
+              <option value="Final Year Year">FinalYear</option></select
+            ><br />
+            <label for="Roll">Enter Roll No.</label><br />
+            <input type="Text" id="Roll" placeholder="Enter Your Roll No" /><br />
+         </div>
+          <div class="data">
+            <div class="rate">
+              <label>Rate The Teachers of Your Class</label><br />
+              <input
+                type="radio" class="radio" name="radio"
+                id="satisfied"
+                name="Teacher"
+                value="Satisfied"
+              />
+              <label for="Satisfied">Satisfied </label><br />
+              <input type="radio" class="radio" name="radio" id="Unsatisfied" name="Teacher"
+              value"Unsatisfied">
+              <label for="Unsatisfied">Unsatisfied </label><br />
+              <input type="radio" class="radio" name="radio" id="cant say" name="Teacher" value"Cant say">
+              <label for="Cant say">Can't say </label><br />
+            </div>
+            <div class="fac">
+              <label>Rate The Facilities of College</label><br />
+              <input
+                type="radio" class="radio" name="radio"
+                id="satisfied"
+                name="facilities"
+                value="Satisfied"
+              />
+              <label for="Satisfied">Satisfied</label><br />
+              <input
+                type="radio" class="radio" name="radio"
+                id="unsatisfied"
+                name="facilities"
+                value="Unsatisfied"
+              />
+              <label for="Unsatisfied">Unsatisfied </label><br />
+            </div>
+          </div>
+          <div class="data">
+            <div class="coll">
+              <label>Rate Campus of College</label><br />
+              <input
+                type="radio" class="radio" name="radio"
+                id="satisfied"
+                name="campus"
+                value="Satisfied"
+              />
+              <label for="Satisfied">Satisfied </label><br />
+              <input
+                type="radio" class="radio" name="radio"
+                id="unsatisfied"
+                name="campus"
+                value="Unsatisfied"
+              />
+              <label for="Unsatisfied">Unsatisfied </label><br />
+            </div>
+            <div class="have">
+              <label> Please marks the things which <br> you have</label><br />
+              <input
+                class="checkbox" type="checkbox"
+                id="Icard"
+                name="Icard"
+                value="I have card"
+              />
+              <label for="Icard">I have Icard</label><br />
+              <input class="checkbox" type="checkbox" id="BT" name="BT" value="I have BT" />
+              <label for="BTd">I have BT</label><br />
+              <input
+                class="checkbox" type="checkbox" 
+                id="Hall"
+                Ticket
+                name="Hall Ticket"
+                value="I have Hall Ticket"
+              />
+              <label for="Hall Ticket">I have Hall Ticket</label><br />
+              <input
+                class="checkbox" type="checkbox"
+                id="Uniform"
+                name="uniform"
+                value="I have Uniform"
+              />
+              <label for="Uniform">I have Uniform</label><br />
+            </div>
+          </div>
+          <div class="comm">
+            <label>Please given your comments </label><br />
+            <textarea id="comment" name="comment"  placeholder="Please given your comments" >
+            </textarea
+            ><br /><br />
+            <input type="submit" value="submit" />
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
